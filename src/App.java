@@ -46,7 +46,7 @@ public class App {
                     break;
 
                 case 3:
-                    System.out.println("Enter victims' name to be found: ");
+                    System.out.println("Enter victims' ID to be found: ");
                     stuID = scanner.nextLine();
                     Student foundStudent = students.get(stuID);
                     if (foundStudent != null) {
@@ -65,6 +65,7 @@ public class App {
                 
                 case 5:
                     System.out.println("Go Find more victims to find!");
+                    System.exit(1);
                     
                     
 
