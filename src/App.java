@@ -65,6 +65,7 @@ public class App {
                 
                 case 5:
                     System.out.println("Go Find more victims to find!");
+                    scanner.close();
                     System.exit(1);
                     
                     
